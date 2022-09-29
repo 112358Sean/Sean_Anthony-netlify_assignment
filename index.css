@@ -7,7 +7,7 @@
     background-color: lightgreen;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) and (min-width: 320px){
     #about_me {
         padding: 30px 0 30px 0;
     }
@@ -37,7 +37,7 @@ header{
     width: 300px;
 }
 
-#education_history, #experiences, #skills, #contact_me{
+#education_history, #experiences, #skills, #contact_me, #portofolio{
     margin: 30px 60px 60px 60px;
 }
 
@@ -57,6 +57,7 @@ footer{
     width: 100%;
     gap: 5px;
   }
+  
 .grid_item {
     background-color: white;
     padding: 5px;
@@ -65,4 +66,8 @@ footer{
 .grid_not{
     background-color: lightgreen;
     padding: 5px;
+}
+
+.card{
+    margin: 20px;
 }
